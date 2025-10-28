@@ -214,7 +214,7 @@ const Index = () => {
 
       <footer className="container mx-auto px-6 py-16 border-t border-border/30">
         <div className="text-center text-foreground/40 text-sm uppercase tracking-widest font-light space-y-3">
-          <p>© 2024 Психолог КПТ</p>
+          <p>© 2021 Психолог КПТ</p>
           <p className="text-xs">Конфиденциальность гарантирована</p>
         </div>
       </footer>
