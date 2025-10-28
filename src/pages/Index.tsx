@@ -156,7 +156,7 @@ const Index = () => {
                 }
               ].map((item, index) => (
                 <div key={index} className="border-l-2 border-primary/30 pl-6">
-                  <h4 className="font-semibold text-foreground mb-2 text-lg tracking-tight">{item.title}</h4>
+                  <h4 className="font-semibold text-foreground mb-2 tracking-tight text-2xl">{item.title}</h4>
                   <p className="text-foreground/60 font-light leading-relaxed">{item.text}</p>
                 </div>
               ))}
