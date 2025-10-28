@@ -8,7 +8,7 @@ const Index = () => {
         <div className="container mx-auto px-6 py-8 flex justify-between items-center">
           <div className="text-3xl font-bold text-primary tracking-tight">CBT Help</div>
           <div className="hidden md:flex gap-12 text-sm uppercase tracking-wider">
-            <a href="#about" className="text-foreground/60 hover:text-primary transition-colors font-medium">О специалисте</a>
+            <a href="#about" className="text-foreground/60 hover:text-primary transition-colors font-medium">Обо мне</a>
             <a href="#services" className="text-foreground/60 hover:text-primary transition-colors font-medium">Услуги</a>
             <a href="#approach" className="text-foreground/60 hover:text-primary transition-colors font-medium">Подход</a>
             <a href="#contact" className="text-foreground/60 hover:text-primary transition-colors font-medium">Контакты</a>
