@@ -6,7 +6,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <nav className="border-b border-border/30 backdrop-blur-sm bg-background/80 sticky top-0 z-50">
         <div className="container mx-auto px-6 py-8 flex justify-between items-center">
-          <div className="text-3xl font-bold text-primary tracking-tight">Психолог КПТ</div>
+          <div className="text-3xl font-bold text-primary tracking-tight">CBT Help</div>
           <div className="hidden md:flex gap-12 text-sm uppercase tracking-wider">
             <a href="#about" className="text-foreground/60 hover:text-primary transition-colors font-medium">О специалисте</a>
             <a href="#services" className="text-foreground/60 hover:text-primary transition-colors font-medium">Услуги</a>
