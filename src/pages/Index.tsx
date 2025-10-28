@@ -16,20 +16,30 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="container mx-auto px-6 py-32 md:py-48">
-        <div className="max-w-5xl mx-auto text-center animate-fade-in">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight">
-            Путь к внутреннему <span className="italic">равновесию</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
-            Профессиональная психологическая помощь в рамках когнитивно-поведенческой терапии
-          </p>
-          <Button 
-            size="lg" 
-            className="text-base px-10 py-7 uppercase tracking-wider font-medium hover:scale-105 transition-transform"
-          >
-            Записаться на консультацию
-          </Button>
+      <section className="relative px-6 py-32 md:py-48 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/3ba9af7e-378f-40d9-9286-5feb17fc15f8.jpg"
+            alt="Therapy office"
+            className="w-full h-full object-cover opacity-15"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background"></div>
+        </div>
+        <div className="container mx-auto relative z-10">
+          <div className="max-w-5xl mx-auto text-center animate-fade-in">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight">
+              Путь к внутреннему <span className="italic">равновесию</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+              Профессиональная психологическая помощь в рамках когнитивно-поведенческой терапии
+            </p>
+            <Button 
+              size="lg" 
+              className="text-base px-10 py-7 uppercase tracking-wider font-medium hover:scale-105 transition-transform"
+            >
+              Записаться на консультацию
+            </Button>
+          </div>
         </div>
       </section>
 
