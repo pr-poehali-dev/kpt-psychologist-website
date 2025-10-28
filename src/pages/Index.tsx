@@ -33,7 +33,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="container mx-auto px-6 py-32 border-t border-border/30">
+      <section id="about" className="container mx-auto px-6 py-20 border-t border-border/30">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center">
           <div className="relative">
             <div className="absolute inset-0 bg-accent/20 -rotate-1"></div>
@@ -70,7 +70,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="container mx-auto px-6 py-32 border-t border-border/30">
+      <section id="services" className="container mx-auto px-6 py-20 border-t border-border/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-20 tracking-tight">Услуги</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -121,7 +121,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="approach" className="container mx-auto px-6 py-32 border-t border-border/30 bg-muted/20">
+      <section id="approach" className="container mx-auto px-6 py-20 border-t border-border/30 bg-muted/20">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 tracking-tight text-center">
             Что такое КПТ подход?
@@ -160,7 +160,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="container mx-auto px-6 py-32 border-t border-border/30">
+      <section id="contact" className="container mx-auto px-6 py-20 border-t border-border/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8 tracking-tight text-center">Свяжитесь со мной</h2>
           <p className="text-xl text-foreground/60 mb-20 text-center font-light max-w-2xl mx-auto leading-relaxed">
