@@ -16,9 +16,16 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="container mx-auto px-6 md:py-24 bg-transparent py-[85px]">
-        <div className="max-w-5xl mx-auto text-center animate-fade-in">
-          <h1 className="md:text-7xl lg:text-8xl font-bold text-foreground leading-[1.1] tracking-tight text-5xl my-4 text-center">
+      <section className="relative container mx-auto px-6 md:py-24 py-[85px] overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
+            alt="Кабинет психолога"
+            className="w-full h-full object-cover opacity-15"
+          />
+        </div>
+        <div className="relative z-10 max-w-5xl mx-auto text-center animate-fade-in">
+          <h1 className="text-6xl font-bold text-foreground leading-[1.1] tracking-tight my-4">
             Путь к внутреннему <span className="italic">равновесию</span>
           </h1>
           <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
