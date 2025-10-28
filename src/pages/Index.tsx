@@ -16,30 +16,20 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="relative px-6 py-32 md:py-48 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/3ba9af7e-378f-40d9-9286-5feb17fc15f8.jpg"
-            alt="Therapy office"
-            className="w-full h-full object-cover opacity-15"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background"></div>
-        </div>
-        <div className="container mx-auto relative z-10">
-          <div className="max-w-5xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight">
-              Путь к внутреннему <span className="italic">равновесию</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
-              Профессиональная психологическая помощь в рамках когнитивно-поведенческой терапии
-            </p>
-            <Button 
-              size="lg" 
-              className="text-base px-10 py-7 uppercase tracking-wider font-medium hover:scale-105 transition-transform"
-            >
-              Записаться на консультацию
-            </Button>
-          </div>
+      <section className="container mx-auto px-6 py-16 md:py-24">
+        <div className="max-w-5xl mx-auto text-center animate-fade-in">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight">
+            Путь к внутреннему <span className="italic">равновесию</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+            Профессиональная психологическая помощь в рамках когнитивно-поведенческой терапии
+          </p>
+          <Button 
+            size="lg" 
+            className="text-base px-10 py-7 uppercase tracking-wider font-medium hover:scale-105 transition-transform"
+          >
+            Записаться на консультацию
+          </Button>
         </div>
       </section>
 
@@ -80,15 +70,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="relative px-6 py-32 border-t border-border/30 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/ffd6d286-2b16-40ca-a916-cf16e8f4483a.jpg"
-            alt="Therapy consultation"
-            className="w-full h-full object-cover opacity-10"
-          />
-        </div>
-        <div className="container mx-auto relative z-10">
+      <section id="services" className="container mx-auto px-6 py-32 border-t border-border/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-20 tracking-tight">Услуги</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -137,18 +119,9 @@ const Index = () => {
             ))}
           </div>
         </div>
-        </div>
       </section>
 
-      <section id="approach" className="relative px-6 py-32 border-t border-border/30 bg-muted/20 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/daf80f5c-05fd-4c80-a0aa-186a4b658bed.jpg"
-            alt="Abstract shapes"
-            className="w-full h-full object-cover opacity-8"
-          />
-        </div>
-        <div className="container mx-auto relative z-10">
+      <section id="approach" className="container mx-auto px-6 py-32 border-t border-border/30 bg-muted/20">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 tracking-tight text-center">
             Что такое КПТ подход?
@@ -184,7 +157,6 @@ const Index = () => {
               ))}
             </div>
           </div>
-        </div>
         </div>
       </section>
 
