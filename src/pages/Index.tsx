@@ -16,7 +16,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="container mx-auto px-6 py-16 md:py-24">
+      <section className="container mx-auto px-6 md:py-24 bg-transparent py-[85px]">
         <div className="max-w-5xl mx-auto text-center animate-fade-in">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight">
             Путь к внутреннему <span className="italic">равновесию</span>
@@ -47,7 +47,7 @@ const Index = () => {
             </div>
           </div>
           <div className="space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground tracking-tight">О специалисте</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground tracking-tight">Обо мне и моем опыте</h2>
             <div className="space-y-6 text-lg text-foreground/70 leading-relaxed font-light">
               <p>
                 Я специализируюсь на когнитивно-поведенческой терапии и помогаю людям справляться с тревогой, депрессией, 
@@ -121,7 +121,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="approach" className="container mx-auto px-6 py-20 border-t border-border/30 bg-muted/20">
+      <section id="approach" className="container mx-auto px-6 border-t border-border/30 bg-muted/20 py-[50px]">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 tracking-tight text-center">
             Что такое КПТ подход?
@@ -160,7 +160,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="container mx-auto px-6 py-20 border-t border-border/30">
+      <section id="contact" className="container mx-auto px-6 border-t border-border/30 py-[25px]">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8 tracking-tight text-center">Свяжитесь со мной</h2>
           <p className="text-xl text-foreground/60 mb-20 text-center font-light max-w-2xl mx-auto leading-relaxed">
