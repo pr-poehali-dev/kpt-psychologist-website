@@ -59,9 +59,7 @@ const Index = () => {
               </p>
             </div>
             <div className="flex flex-col gap-3 pt-6 text-sm uppercase tracking-wider">
-              <div className="border-l-2 border-primary pl-4 py-2 font-medium">
-                Опыт работы 10+ лет
-              </div>
+              <div className="border-l-2 border-primary pl-4 py-2 font-medium">Опыт работы более 5 лет</div>
               <div className="border-l-2 border-primary pl-4 py-2 font-medium">
                 Сертифицированный КПТ специалист
               </div>
