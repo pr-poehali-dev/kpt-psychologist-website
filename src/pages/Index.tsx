@@ -18,7 +18,7 @@ const Index = () => {
 
       <section className="container mx-auto px-6 md:py-24 bg-transparent py-[85px]">
         <div className="max-w-5xl mx-auto text-center animate-fade-in">
-          <h1 className="md:text-7xl lg:text-8xl font-bold mb-8 text-foreground leading-[1.1] tracking-tight text-6xl">
+          <h1 className="md:text-7xl lg:text-8xl font-bold text-foreground leading-[1.1] tracking-tight text-5xl my-4 text-center">
             Путь к внутреннему <span className="italic">равновесию</span>
           </h1>
           <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
