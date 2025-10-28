@@ -80,7 +80,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="container mx-auto px-6 py-32 border-t border-border/30">
+      <section id="services" className="relative px-6 py-32 border-t border-border/30 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/ffd6d286-2b16-40ca-a916-cf16e8f4483a.jpg"
+            alt="Therapy consultation"
+            className="w-full h-full object-cover opacity-10"
+          />
+        </div>
+        <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-20 tracking-tight">Услуги</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -129,9 +137,18 @@ const Index = () => {
             ))}
           </div>
         </div>
+        </div>
       </section>
 
-      <section id="approach" className="container mx-auto px-6 py-32 border-t border-border/30 bg-muted/20">
+      <section id="approach" className="relative px-6 py-32 border-t border-border/30 bg-muted/20 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/daf80f5c-05fd-4c80-a0aa-186a4b658bed.jpg"
+            alt="Abstract shapes"
+            className="w-full h-full object-cover opacity-8"
+          />
+        </div>
+        <div className="container mx-auto relative z-10">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 tracking-tight text-center">
             Что такое КПТ подход?
@@ -167,6 +184,7 @@ const Index = () => {
               ))}
             </div>
           </div>
+        </div>
         </div>
       </section>
 
