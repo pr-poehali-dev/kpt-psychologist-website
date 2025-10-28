@@ -130,7 +130,7 @@ const Index = () => {
           </h2>
           <div className="bg-background border border-border/30 p-12 md:p-16 space-y-10">
             <p className="text-xl text-foreground/80 leading-relaxed font-light">
-              <span className="font-semibold text-primary">Когнитивно-поведенческая терапия (КПТ)</span> — это научно обоснованный метод психотерапии, 
+              <span className="text-4xl md:text-5xl font-bold text-foreground mb-16 tracking-tight text-center">Когнитивно-поведенческая терапия (КПТ)</span> — это научно обоснованный метод психотерапии, 
               который фокусируется на связи между мыслями, эмоциями и поведением.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
