@@ -21,7 +21,7 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
             alt="Кабинет психолога"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-40"
           />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center animate-fade-in">
@@ -75,9 +75,9 @@ const Index = () => {
       <section id="services" className="relative container mx-auto px-6 py-20 border-t border-border/30 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/2ec84576-0c39-4a97-8984-0fa93cf207dc.jpg" 
             alt=""
-            className="w-full h-full object-cover opacity-10"
+            className="w-full h-full object-cover opacity-40"
           />
         </div>
         <div className="relative z-10 max-w-6xl mx-auto">
@@ -172,9 +172,9 @@ const Index = () => {
       <section id="contact" className="relative container mx-auto px-6 border-t border-border/30 py-[25px] overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/4d012820-d7b6-4e8e-a977-209b90832108.jpg" 
             alt=""
-            className="w-full h-full object-cover opacity-10"
+            className="w-full h-full object-cover opacity-40"
           />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
