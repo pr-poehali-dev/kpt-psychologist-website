@@ -128,8 +128,8 @@ const Index = () => {
                 <div className="mb-6">
                   <Icon name={service.icon} size={32} className="text-primary/60" />
                 </div>
-                <h3 className="text-2xl font-semibold text-foreground mb-4 tracking-tight">{service.title}</h3>
-                <p className="leading-relaxed font-light text-[#000000]">{service.description}</p>
+                <h3 className="text-foreground mb-4 tracking-tight font-semibold text-3xl">{service.title}</h3>
+                <p className="leading-relaxed font-light text-[#000000] text-lg">{service.description}</p>
               </div>
             ))}
           </div>
@@ -214,7 +214,7 @@ const Index = () => {
                   <Icon name={contact.icon} size={28} className="text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-3 uppercase tracking-wider text-sm">{contact.title}</h3>
-                <p className="text-foreground/60 font-light">{contact.text}</p>
+                <p className="font-light text-[#000000]">{contact.text}</p>
               </div>
             ))}
           </div>
