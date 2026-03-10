@@ -129,7 +129,7 @@ const Index = () => {
                   <Icon name={service.icon} size={32} className="text-primary/60" />
                 </div>
                 <h3 className="text-2xl font-semibold text-foreground mb-4 tracking-tight">{service.title}</h3>
-                <p className="text-foreground/60 leading-relaxed font-light">{service.description}</p>
+                <p className="leading-relaxed font-light text-[#000000]">{service.description}</p>
               </div>
             ))}
           </div>
