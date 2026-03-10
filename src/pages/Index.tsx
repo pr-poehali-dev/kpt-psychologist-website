@@ -21,7 +21,7 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
             alt="Кабинет психолога"
-            className="w-full h-full object-cover opacity-15"
+            className="w-full h-full object-cover opacity-30"
           />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center animate-fade-in">
@@ -72,8 +72,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="container mx-auto px-6 py-20 border-t border-border/30">
-        <div className="max-w-6xl mx-auto">
+      <section id="services" className="relative container mx-auto px-6 py-20 border-t border-border/30 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
+            alt=""
+            className="w-full h-full object-cover opacity-10"
+          />
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-20 tracking-tight">Услуги</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {[
@@ -162,8 +169,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="container mx-auto px-6 border-t border-border/30 py-[25px]">
-        <div className="max-w-5xl mx-auto">
+      <section id="contact" className="relative container mx-auto px-6 border-t border-border/30 py-[25px] overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/afc048a6-e402-4b95-8c50-ca85c3b6c207/files/b56a5969-a322-46c7-87d0-6a70ca871683.jpg" 
+            alt=""
+            className="w-full h-full object-cover opacity-10"
+          />
+        </div>
+        <div className="relative z-10 max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8 tracking-tight text-center">Свяжитесь со мной</h2>
           <p className="text-xl text-foreground/60 mb-20 text-center font-light max-w-2xl mx-auto leading-relaxed">
             Готовы начать путь к изменениям? Запишитесь на первую консультацию
@@ -173,17 +187,17 @@ const Index = () => {
               {
                 icon: "Mail",
                 title: "Email",
-                text: "psycholog@example.com"
+                text: "nyamkoba@gmail.com"
               },
               {
                 icon: "Phone",
                 title: "Телефон",
-                text: "+7 (999) 123-45-67"
+                text: "+7 (905) 503-44-01"
               },
               {
                 icon: "MessageCircle",
                 title: "Telegram",
-                text: "@psycholog_cbt"
+                text: "@cbthelps"
               }
             ].map((contact, index) => (
               <div 
