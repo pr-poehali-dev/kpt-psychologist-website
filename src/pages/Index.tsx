@@ -1,9 +1,14 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import ContactModal from "@/components/ContactModal";
 
 const Index = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background">
+      <ContactModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
       <nav className="border-b border-border/30 backdrop-blur-sm bg-background/80 sticky top-0 z-50">
         <div className="container mx-auto px-6 py-8 flex justify-between items-center">
           <div className="text-3xl font-bold text-primary tracking-tight">CBT Help</div>
@@ -33,6 +38,7 @@ const Index = () => {
           </p>
           <Button 
             size="lg" 
+            onClick={() => setModalOpen(true)}
             className="text-base px-10 py-7 uppercase tracking-wider font-medium hover:scale-105 transition-transform"
           >
             Записаться на консультацию
@@ -214,7 +220,8 @@ const Index = () => {
           </div>
           <div className="text-center">
             <Button 
-              size="lg" 
+              size="lg"
+              onClick={() => setModalOpen(true)}
               className="text-base px-10 py-7 uppercase tracking-wider font-medium hover:scale-105 transition-transform"
             >
               Записаться на консультацию
