@@ -33,7 +33,7 @@ const Index = () => {
           <h1 className="text-6xl font-bold text-foreground leading-[1.1] tracking-tight my-4">
             Путь к внутреннему <span className="italic">равновесию</span>
           </h1>
-          <p className="text-xl md:text-2xl text-foreground/60 mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+          <p className="text-xl md:text-2xl mb-12 leading-relaxed max-w-3xl mx-auto font-light text-[#000000]">
             Профессиональная психологическая помощь в рамках когнитивно-поведенческой терапии
           </p>
           <Button 
