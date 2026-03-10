@@ -87,7 +87,7 @@ const Index = () => {
           />
         </div>
         <div className="relative z-10 max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-20 tracking-tight">Услуги</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-20 tracking-tight text-center">Запросы, с которыми мы будем работать</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {[
               {
@@ -142,7 +142,7 @@ const Index = () => {
             Что такое КПТ подход?
           </h2>
           <div className="bg-background border border-border/30 p-12 md:p-16 space-y-10">
-            <p className="text-xl text-foreground/80 leading-relaxed font-light">
+            <p className="text-foreground/80 leading-relaxed font-light text-2xl">
               <span className="font-semibold text-primary">Когнитивно-поведенческая терапия (КПТ)</span> — это научно обоснованный метод психотерапии, 
               который фокусируется на связи между мыслями, эмоциями и поведением.
             </p>
@@ -166,8 +166,8 @@ const Index = () => {
                 }
               ].map((item, index) => (
                 <div key={index} className="border-l-2 border-primary/30 pl-6">
-                  <h4 className="font-semibold text-foreground mb-2 tracking-tight text-2xl">{item.title}</h4>
-                  <p className="text-foreground/60 font-light leading-relaxed">{item.text}</p>
+                  <h4 className="font-semibold text-foreground mb-2 tracking-tight text-3xl">{item.title}</h4>
+                  <p className="text-foreground/60 font-light leading-relaxed text-lg">{item.text}</p>
                 </div>
               ))}
             </div>
